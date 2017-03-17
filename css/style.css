@@ -1,4 +1,5 @@
 /*Purple: color:#4B0082;*/
+/*Grey: #5e5e5e*/
 
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900,100,200);
@@ -129,13 +130,13 @@ ul.menu-fullscreen{
   top: 50%;
   position: absolute;
   height: 280px;
-  margin-top: -140px;
+  margin-top: -200px;
 }
 
 ul.menu-fullscreen li{
   font-size:35px;
   text-align:center;
-  line-height:70px;
+  line-height:45px;
   font-weight:500;
 }
 
@@ -222,7 +223,7 @@ ul.social-icon a:hover{
 .menu-index{
   position: fixed;
   right: 5%;
-  top: 30px;
+  top: 15px;
   z-index: 99999;
   padding:20px;
   background:black;
@@ -291,7 +292,7 @@ header li{
 
 header li > a{
   font-size:13px;
-  color:#c3c3c3;
+  color:#5e5e5e;
   padding-right:25px;
   padding-left:25px;
   font-weight:800;
@@ -593,6 +594,13 @@ li.grid-item img{
 }
 
 
+ul.menu-fullscreen li > i:hover{
+  color:#ffffff;
+}
+#mobileNavbarSocialIcon:hover {
+  color: #ffffff !important;
+}
+
 
 /*
 **************************
@@ -653,13 +661,25 @@ footer{
 }
 
 #fa-long-arrow-right {
-  color: #4B0082;
+  color: #4B0082 !important;
 }
 
 #fa-long-arrow-left {
-  color: #4B0082;
+  color: #4B0082 !important;
 }
 
+#subProject {
+  font-size: 20px !important;
+  line-height: 35px !important;
+}
+
+#navbarSocialIcon {
+  color: #4B0082 !important;
+}
+
+#footerSocialIcon{
+  color: #4B0082 !important;
+}
 
 /*
 **************************
