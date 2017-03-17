@@ -592,13 +592,7 @@ li.grid-item img{
   width:360px;
 }
 
-#fa-long-arrow-right {
-  color: #4B0082;
-}
 
-#fa-long-arrow-left {
-  color: #4B0082;
-}
 
 /*
 **************************
@@ -658,6 +652,14 @@ footer{
   color: #c3c3c3;
 }
 
+#fa-long-arrow-right {
+  color: #4B0082;
+}
+
+#fa-long-arrow-left {
+  color: #4B0082;
+}
+
 
 /*
 **************************
@@ -681,6 +683,8 @@ CONTACT
 .contact-one p, .contact-two p, .contact-three p{
   width:100% !important;
 }
+
+
 
 input{
 
