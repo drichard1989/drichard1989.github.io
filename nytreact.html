@@ -5,12 +5,12 @@
 <head>
 
 	<meta charset="utf-8">
-	<title>AppleInsider Scraper | Dylan Richard - Full Stack Developer</title>
+	<title>New York Times React | Dylan Richard - Full Stack Developer</title>
 	<!--<meta name="description" content="DYLAN RICHARD - Portfolio with grid HTML5 and CSS3 modern simplicity style template. Check my portfolio. Download free now with file Photoshop!">-->
-	<meta name="description" content="An application that allows you to scrape articles off of another site, and store them into MongoDB when a button is clicked, and write notes on them. ">
+	<meta name="description" content="A website that allows you to search New York Times Articles and save them for future viewing. Built in React.">
 	<!--Additional meta name info here-->
 
-	<meta name="keywords" content="Mongoose, MongoDB, AJAX, JavaScript, Express, NodeJS, HTML, CSS, Bootstrap, Github, Heroku">
+	<meta name="keywords" content="React, Mongoose, MongoDB, AJAX, JavaScript, Express, NodeJS, HTML, CSS, Bootstrap, Github, Heroku">
 	<!--Need information on what to put in these sections. -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="author" content="Dylan Richard">
@@ -136,22 +136,23 @@
 
 		<div class="text-intro">
 
-			<h1>AppleInsider Scraper
+			<h1>New York Times Search
 				<br/>
-				<a href="https://github.com/drichard1989/newsScrape" target="_blank"><i class="fa fa-github"></i></a> <a href="https://fathomless-harbor-65673.herokuapp.com/"
+				<a href="https://github.com/drichard1989/nytreact" target="_blank"><i class="fa fa-github"></i></a> <a href="https://stark-harbor-54315.herokuapp.com/"
 				 target="_blank"><i class="fa fa-link"></i></a></h1>
 
 
 			<div class="one-column">
 				<h3 class="subheader">Technologies Used:</h3>
-				<p>Mongoose
+				<p>React
+					</br> Mongoose
 					</br> MongoDb
 					</br> MongoDb
 					</br> jQuery
 					</br> Express
 					</br> Node.js
 					</br> AJAX
-					</br> Handlebars
+					</br> API
 					</br> Heroku
 					</br> Github
 					</br> JavaScript
@@ -160,20 +161,16 @@
 				</p>
 			</div>
 
-
 			<div class="two-column">
 				<h3 class="subheader">The Purpose</h3>
-				<p>AppleInsider Scraper is an application that allows you to scrape the articles off of Appleinsider.com, and populate the
-					main page. Using a series of validations, articles only populate once on the page. You can save the article for future
-					review, and once that article is saved, you can write notes and comments about that article.</p>
+				<p>The New York Times React application allows for you to search for articles that have been posted using a keywords search, article amount limit, and a year filter. Once you have searched the New York Times API, you are able to click on the article title to take you to the original source, or save the article for later viewing. Once you have saved an article, you can view all of the saved articles in one place, and then delete the ones that you do not want.</p>
 				<p>This project was completed using Mongoose and MongoDB, which is where the data is being stored. The notes are tied to
-					the articles in MongoDB. Incorportating Mongoose and MongoDB was different than using MySQL, but showed benefits and
-					drawbacks.</p>
+				the articles in MongoDB. Incorportating Mongoose and MongoDB was different than using MySQL, but showed benefits and
+				drawbacks.</p>
+				<p>The real power of this application is the fact that it was built using React instead of a standard HTML and CSS page. This allows for the page to function without having to be re-loaded when data is returned.</p>
 			</div>
 
 			<div class="clear"></div>
-
-
 
 		</div>
 
@@ -184,40 +181,39 @@
 
 		</div>
 
-
 		<!--Portfolio grid-->
 
 		<ul class="portfolio-grid">
 
 
 			<li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-				<img src="img/appleInsiderScraper/intro.png">
+				<img src="img/nytreact/intro.png">
 				<div class="grid-hover">
 					<h1>Home Screen</h1>
 				</div>
 			</li>
 
 			<li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-				<img src="img/appleInsiderScraper/img1.png">
+				<img src="img/nytreact/img1.png">
 				<div class="grid-hover">
-					<h1>Scraper Results</h1>
-					<p>Runs a fresh scrape</p>
+					<h1>Search Screen</h1>
+					<p>Runs a search on the API</p>
 				</div>
 			</li>
 
 			<li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-				<img src="img/appleInsiderScraper/img2.png">
+				<img src="img/nytreact/img2.png">
+				<div class="grid-hover">
+					<h1>Search Returns</h1>
+					<p>In list view in a panel</p>
+				</div>
+			</li>
+
+			<li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+				<img src="img/nytreact/img3.png">
 				<div class="grid-hover">
 					<h1>Saved Articles</h1>
 					<p>Saves to MongoDB</p>
-				</div>
-			</li>
-
-			<li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-				<img src="img/appleInsiderScraper/img3.png">
-				<div class="grid-hover">
-					<h1>Notes</h1>
-					<p>Write a note/comment</p>
 				</div>
 			</li>
 
@@ -226,9 +222,7 @@
 	</div>
 	<div class="prev-next">
 
-		<div class="prev-button"><a class="ajax-link" href="nomz.html"><i class="fa fa-long-arrow-left" id="fa-long-arrow-left"></i> Nomz</a></div>
-		<div class="next-button"><a class="ajax-link" href="theNeighborNetwork.html">The Neighbor Network <i class="fa fa-long-arrow-right" id="fa-long-arrow-right"></i></a></div>
-
+		<div class="prev-button"><a class="ajax-link" href="theNeighborNetwork.html"><i class="fa fa-long-arrow-left" id="fa-long-arrow-left"></i> The Neighbor Network</a></div>
 
 	</div>
 
