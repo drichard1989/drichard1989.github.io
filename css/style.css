@@ -208,15 +208,23 @@ header.boxed .header-margin-mini{
 
 
 ul.social-icon{
-  float:right;
+	background: rgba(255,255,255,.1);
+    position: fixed;
+    right: 0;
+    top: 23.5%;
+    float: none;
+
+    box-shadow: -2px 0px 6px rgba(0,0,0,.5);
+}
+
+ul.social-icon li{
+	float: none;
+    padding-right: 10px;
+    padding-top: 3px;
 }
 
 ul.social-icon a{
-  float:right;
-  font-size:15px;
-  border-bottom:0;
-  color:black;
-  padding-right:0px !important;
+	line-height: 60px;
 }
 
 
@@ -231,7 +239,7 @@ ul.social-icon a:hover{
   top: 15px;
   z-index: 99999;
   padding:20px;
-  background:black;
+  background:#5e5e5e;
   cursor:pointer;
 }
 
@@ -304,6 +312,12 @@ header li > a{
   line-height:80px;
   display:inline-block;  
   border-bottom:0;
+}
+
+#sideIcons {
+	font-size: 25px !important;
+	padding-right: 5px;
+	padding-left: 15px;
 }
 
 header li > a:hover{
@@ -662,7 +676,7 @@ footer{
 }
 
 .fa {
-  color: #c3c3c3;
+  color: #5e5e5e;
 }
 
 #fa-long-arrow-right {
@@ -684,6 +698,7 @@ footer{
 
 #footerSocialIcon{
   color: #ff6600 !important;
+  font-size: 25px;
 }
 
 /*
