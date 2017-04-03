@@ -1,4 +1,4 @@
-/*Purple: color:#4B0082;*/
+/*Purple: color:#ff6600;*/
 /*Grey: #5e5e5e*/
 
 
@@ -269,7 +269,7 @@ ul.menu-icon a:hover{
 }
 
 header a{
-  color:#4B0082;
+  color:#ff6600;
 }
 
 ul.header-nav{
@@ -390,7 +390,7 @@ CONTENT
   font-size:43px;
   width:40%;
   text-transform:uppercase;
-  color:#4B0082;
+  color:#ff6600;
   font-weight:900;
   line-height:70px;
 }
@@ -398,7 +398,7 @@ CONTENT
 .projectImageHeader {
   font-size: 24px;
   text-transform: uppercase;
-  color: #4B0082;
+  color: #ff6600;
   font-weight: 700;
   line-height: 50px;
   text-align: center;
@@ -407,7 +407,7 @@ CONTENT
 .typejsText {
   font-size: 24px;
   text-transform: uppercase;
-  color: #4B0082;
+  color: #ff6600;
   font-weight: 700;
   line-height: 50px;
 }
@@ -415,7 +415,7 @@ CONTENT
 .subheader {
   font-size: 20px;
   text-transform: uppercase;
-  color: #4B0082;
+  color: #ff6600;
   font-weight: 600;
   margin-top: 10px;
 }
@@ -666,11 +666,11 @@ footer{
 }
 
 #fa-long-arrow-right {
-  color: #4B0082 !important;
+  color: #ff6600 !important;
 }
 
 #fa-long-arrow-left {
-  color: #4B0082 !important;
+  color: #ff6600 !important;
 }
 
 #subProject {
@@ -679,11 +679,11 @@ footer{
 }
 
 #navbarSocialIcon {
-  color: #4B0082 !important;
+  color: #ff6600 !important;
 }
 
 #footerSocialIcon{
-  color: #4B0082 !important;
+  color: #ff6600 !important;
 }
 
 /*
